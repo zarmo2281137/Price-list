@@ -1,0 +1,104 @@
+:root {
+    --main-font:'Roboto', sans-serif;
+  }
+  .body {
+    background-color: whitesmoke;
+    
+  }
+  .price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  .price-list {
+    display: flex;
+    gap: 50px;
+  }
+  .schedule-text {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 30px;
+  
+    
+  }
+  .price-list__price-content {
+    border-radius: 8px;
+    text-align: center;
+  
+    
+    
+  }
+  .price-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    gap: 50px;
+    padding-bottom: 50px;
+  
+    background-color: white;
+    
+    border-radius: 8px;
+  
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2)  ;
+  }
+  .price-title {
+    font-family: var(--main-font);
+    font-size: 24px;
+  
+    text-transform: uppercase;
+  
+    background-color: royalblue;
+    color: white;
+    padding: 64px;
+  
+    position: relative;
+  
+    border-radius: 8px 8px 0 0;
+  }
+  .dollar {
+    color: white;
+    font-family: var(--main-font);
+    font-size: 24px;
+  
+    vertical-align: top;
+  }
+  .costs {
+    font-size: 44px;
+  }
+  .schedule {
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    font-size: 16px;
+  
+    text-align: center;
+    
+  }
+  .schedule-first::before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid gray; 
+    width: 50px;
+    transform: translate(65px , 27px);
+  }
+  .schedule-third::before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid gray; 
+    width: 50px;
+    transform: translate(70px , 30px);
+  }
+  .order {
+    border: none;
+    border-radius: 12px;
+  
+    cursor: pointer;
+  
+    background-color: royalblue;
+    padding: 8px 32px;
+  }
+  .order__text {
+    color: white;
+  }
